@@ -7,32 +7,30 @@ body{
 .box{
     
     width: 20vw;
-    height: 70vh;
+    height: 72vh;
     margin: auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     padding: 15px;
-
+    box-shadow: rgba(128, 128, 128, 0.5) 1px 5px 20px 5px;
 }
 .qr-code{
     width: 100%;
-    border-radius: 10px;
-    
-    
+    border-radius: 8px;   
 }
 .title{
     text-align: center;
     font-weight: 700;
     font-size: 20px;
+    color: hsl(218, 44%, 22%);
 }
 .subtitle{
     text-align: center;
     font-weight: 400;
     font-size: 15px;
     color: hsl(220, 15%, 55%);
+    
 }
 .attribution{
-    float: right;
-    
-    
+    float: right;   
 }
