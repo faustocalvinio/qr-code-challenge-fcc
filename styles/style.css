@@ -39,7 +39,8 @@ body{
     margin-top: 1vh;
     margin-right: 10%;
     font-weight: 500;
-    display: none;
+    position: absolute;
+    top:88%    
 }
 .attribution a{
     color: #51009c;
