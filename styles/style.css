@@ -24,14 +24,18 @@ body{
 .title{
     text-align: center;
     font-weight: 700;
-    font-size: 20px;
-    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    color: rgb(31, 50, 81);
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .subtitle{
     text-align: center;
     font-weight: 400;
     font-size: 15px;
     color: hsl(220, 15%, 55%);    
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .attribution{
     float: right;   
