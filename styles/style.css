@@ -4,9 +4,9 @@ body{
     background: hsl(212, 45%, 89%);    
     font-family: 'Outfit',sans-serif;
 }
-.box{
+.card{
     width: 20vw;
-    height: fit-content;    
+    height: 80vh;    
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     padding: 15px;
@@ -37,10 +37,9 @@ body{
     padding-right: 15px;
     padding-left: 15px;
 }
-.attribution{
-    float: right;   
+.attribution{     
     margin-top: 1vh;
-    margin-right: 10%;
+    margin-right: 10vw;
     font-weight: 500;
     position: absolute;
     top:88%;        
@@ -49,8 +48,9 @@ body{
     color: #0400ff;
 }
 .attribution a:visited{
-    color: #0400ff;
+    color: #480069;
 }
+
 @media (max-width:800px){
     .box{
         width: 80%;
