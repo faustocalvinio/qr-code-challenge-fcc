@@ -12,7 +12,7 @@ body {
 }
 .card{
     width: 20vw;
-    height: 22rem;
+    height: 18rem;
     background-color: hsl(0, 0%, 100%);
     border-radius: 1rem;
     object-fit: contain;
