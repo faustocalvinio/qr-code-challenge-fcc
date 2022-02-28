@@ -6,9 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Outfit', sans-serif;
-    background: #d5e1ef;
-    height: 100vh;
-    display: flex;
+    background: #d5e1ef;    
 }
 .card{
     width: 20vw;
@@ -16,9 +14,9 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 1rem;
     object-fit: contain;
-    padding: 15px;
+    padding: 15px 15px 13px 15px;
     box-shadow: rgba(128, 128, 128, 0.171) 1px 5px 20px 5px;
-    margin: 0;
+    /* margin: 0; */
     position: absolute;
     top: 50%;
     left: 50%;
