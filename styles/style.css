@@ -1,21 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
 
-body{
-    background: hsl(212, 45%, 89%);    
-    font-family: 'Outfit',sans-serif;
+body {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background: #d5e1ef;
+    height: 100vh;
+    display: flex;
 }
 .card{
     width: 20vw;
-    height: 80vh;    
+    height: 31.063rem;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 20px;
+    border-radius: 1rem;
+    object-fit: contain;
     padding: 15px;
-    box-shadow: rgba(128, 128, 128, 0.041) 1px 5px 20px 5px;
+    box-shadow: rgba(128, 128, 128, 0.171) 1px 5px 20px 5px;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 .qr-code{
     width: 100%;
@@ -26,23 +34,22 @@ body{
     font-weight: 700;
     font-size: 22px;
     color: rgb(31, 50, 81);
-    padding-right: 15px;
-    padding-left: 15px;
+    padding:0px 15px;    
 }
 .subtitle{
     text-align: center;
     font-weight: 400;
     font-size: 15px;
     color: hsl(220, 15%, 55%);    
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 15px;
+    padding-top: 0px;
+    margin-top: -10px;
 }
 .attribution{     
-    margin-top: 1vh;
-    margin-right: 10vw;
     font-weight: 500;
     position: absolute;
-    top:88%;        
+    top:90%;       
+    right: 65%; 
 }
 .attribution a{
     color: #0400ff;
