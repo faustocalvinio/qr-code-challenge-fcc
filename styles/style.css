@@ -20,11 +20,11 @@ body{
 }
 .qr-code{
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 15px;
 }
 .title{
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     padding:0px 10px;
 }
 .subtitle{
