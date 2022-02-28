@@ -1,94 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
 
-body {
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    font-family: 'Outfit', sans-serif;
-    background: #d5e1ef;    
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit',sans-serif;
 }
 .card{
+    background: #ffffff;
+    align-content: center;
+    justify-content: center;
     width: 20vw;
-    height: fit-content;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 1rem;
-    object-fit: contain;
-    padding: 15px 15px 13px 15px;
-    box-shadow: rgba(128, 128, 128, 0.171) 1px 5px 20px 5px;
-    /* margin: 0; */
+    margin: auto;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 20px hsl(212, 45%, 89%);
 }
 .qr-code{
     width: 100%;
-    border-radius: 8px;   
+    border-radius: 1rem;
 }
 .title{
     text-align: center;
-    font-weight: 700;
-    font-size: 22px;
-    color: rgb(31, 50, 81);
-    padding:0px 15px;    
+    font-size: 18px;
+    padding:0px 10px;
 }
 .subtitle{
-    text-align: center;
-    font-weight: 400;
+    color: hsl(220, 15%, 55%);
     font-size: 15px;
-    color: hsl(220, 15%, 55%);    
-    padding: 0 15px;
-    padding-top: 0px;
-    margin-top: -10px;
-}
-.attribution{     
-    font-weight: 500;
-    position: absolute;
-    top:90%;       
-    right: 65%; 
-}
-.attribution a{
-    color: #0400ff;
-}
-.attribution a:visited{
-    color: #480069;
-}
-
-@media (max-width:800px){
-    .box{
-        width: 80%;
-        height:fit-content;
-    }
-    .title{
-        font-size: 30px;
-    }
-    .subtitle{
-        font-size: 20px;
-    }
-    .qr-code{
-        height: 40vh;
-        width: 100%;
-        max-width: 350px;
-        left: 40%;        
-        display: block;
-        margin-left: auto;
-        margin-right: auto;        
-    }
-}
-@media (max-width:500px){
-    .box{
-        top: 45%;
-    }
-    .qr-code{
-        height: 40vh;
-        width: 100%;
-    }
-    .title{
-        font-size: 25px;
-    }
-    .subtitle{
-        font-size: 17px;
-    }
+    text-align: center;
+    padding:0px 10px;
 }
