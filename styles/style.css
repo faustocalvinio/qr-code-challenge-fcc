@@ -26,14 +26,14 @@ body{
 .title{
     text-align: center;
     font-size: 1.4em;
-    padding:0px 15px;
+    padding:2px 15px;
     color: hsl(218, 44%, 22%);
 }
 .subtitle{
     color: hsl(220, 15%, 55%);
     font-size: 15px;
     text-align: center;
-    padding: 0px 1.8rem 10px;  
+    padding: 0px 1.8rem 11px;  
 }
 .attribution{
     position: absolute;
