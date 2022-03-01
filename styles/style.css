@@ -8,7 +8,7 @@ body{
     background: #ffffff;
     align-content: center;
     justify-content: center;
-    width: 15vw;
+    width: 19vw;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -19,7 +19,7 @@ body{
     box-shadow: 1px 1px 50px hsla(213, 20%, 78%, 0.795);
 }
 .qr-code{
-    width: 20vw;
+    width: 18vw;
     border-radius: 10px;
 }
 .title{
