@@ -8,7 +8,7 @@ body{
     background: #ffffff;
     align-content: center;
     justify-content: center;
-    width: 21vw;
+    width: 20vw;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -19,21 +19,21 @@ body{
     box-shadow: 0px 2px 30px hsla(213, 20%, 78%, 0.795);
 }
 .qr-code{
-    width: 21vw;
+    width: 20vw;
     border-radius: 10px;
     height: 288px;
 }
 .title{
     text-align: center;
     font-size: 1.4em;
-    padding:4px 15px;
+    padding:5px 15px;
     color: hsl(218, 44%, 22%);
 }
 .subtitle{
     color: hsl(220, 15%, 55%);
     font-size: 15px;
     text-align: center;
-    padding: 0px 1.8rem 9px;  
+    padding: 0px 1.6rem 8px;  
 }
 .attribution{
     position: absolute;
