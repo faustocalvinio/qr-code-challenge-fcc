@@ -46,3 +46,17 @@ body{
 .attribution a:visited{
     color: #8a2be2;
 }
+@media (max-width:500px){
+    .card{
+        width: 75%;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .attribution{
+        top: 89%;
+    }
+    .qr-code{
+        width:100%  ;
+    }
+}
