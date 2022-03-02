@@ -21,7 +21,7 @@ body{
 .qr-code{
     width: 20vw;
     border-radius: 10px;
-    height: 19rem;
+    height: 18rem;
 }
 .title{
     text-align: center;
@@ -39,6 +39,7 @@ body{
 .attribution{
     position: absolute;
     top: 88%;
+    left: 10%;
 }
 .attribution a{
     color:#800080
