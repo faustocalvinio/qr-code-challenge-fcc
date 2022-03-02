@@ -37,7 +37,8 @@ body{
     margin-top: -7px;
 }
 .attribution{
-    display: none;
+    position: absolute;
+    top: 88%;
 }
 .attribution a{
     color:#800080
