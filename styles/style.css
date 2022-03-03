@@ -34,7 +34,7 @@ body{
     color: hsl(220, 15%, 55%);
     font-size: 1rem;
     text-align: center;
-    padding: 0rem .7rem 1rem;  
+    padding: 0rem .7rem .5rem;  
 }
 .attribution{
     position: absolute;
