@@ -63,10 +63,9 @@ body{
         font-size: 16px;
     }
     .attribution{
-        top: 87%;
-        
+        top: 87%;        
     }
     .qr-code{
-        width:100%  ;
+        width:100%;
     }
 }
