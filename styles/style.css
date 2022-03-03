@@ -3,7 +3,7 @@
 body{
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit',sans-serif;
-    min-height: 85vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ body{
 .title{
     text-align: center;
     font-size: 1.4rem;
-    padding: .4rem 1rem .4rem;
+    padding: .4rem 1rem 0rem;
     color: hsl(218, 44%, 22%);
 }
 .subtitle{
