@@ -48,16 +48,23 @@ body{
 }
 @media (max-width:500px){
     body{
-        min-height: 85vh;
+        min-height: 90vh;
     }
     .card{
         width: 75%;
     }
     .title{
-        font-size: 18px;
+        font-size: 23px;
+        width: 100%;
+        padding: .4rem 0rem 0rem;
+    }
+    .subtitle{
+        padding: 0 .3rem;
+        font-size: 16px;
     }
     .attribution{
-        top: 88%;
+        top: 87%;
+        
     }
     .qr-code{
         width:100%  ;
