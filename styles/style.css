@@ -33,7 +33,7 @@ body{
     color: hsl(220, 15%, 55%);
     font-size: 1rem;
     text-align: center;
-    padding: 0rem 1rem .5rem;  
+    padding: 0rem .7rem .5rem;  
     margin-top: -.3rem;
 }
 .attribution{
@@ -49,7 +49,7 @@ body{
 }
 @media (max-width:500px){
     body{
-        min-height: 90vh;
+        min-height: 85vh;
     }
     .card{
         width: 75%;
@@ -58,7 +58,7 @@ body{
         font-size: 20px;
     }
     .attribution{
-        top: 95%;
+        top: 88%;
     }
     .qr-code{
         width:100%  ;
