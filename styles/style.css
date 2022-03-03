@@ -33,13 +33,13 @@ body{
     color: hsl(220, 15%, 55%);
     font-size: 1rem;
     text-align: center;
-    padding: 0rem .7rem .5rem;  
+    padding: 0rem .7rem 0rem;  
     margin-top: -.3rem;
 }
 .attribution{
     position: absolute;
     top: 88%;
-    left: 10%;
+    left: 3%;
 }
 .attribution a{
     color:#800080
@@ -55,7 +55,7 @@ body{
         width: 75%;
     }
     .title{
-        font-size: 20px;
+        font-size: 18px;
     }
     .attribution{
         top: 88%;
