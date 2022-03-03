@@ -8,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     align-self: center;
+    overflow: hidden;
 }
 .card{
     background: #ffffff;
@@ -37,7 +38,7 @@ body{
 }
 .attribution{
     position: absolute;
-    top: 88%;
+    top: 8%;
     left: 3%;
 }
 .attribution a{
@@ -49,6 +50,7 @@ body{
 @media (max-width:500px){
     body{
         min-height: 90vh;
+        overflow: scroll;
     }
     .card{
         width: 75%;
