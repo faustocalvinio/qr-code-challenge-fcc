@@ -33,7 +33,7 @@ body{
     color: hsl(220, 15%, 55%);
     font-size: 1rem;
     text-align: center;
-    padding: 0rem .7rem .8rem;  
+    padding: 0rem .7rem 1.5rem;  
     margin-top: -.3rem;
 }
 .attribution{
