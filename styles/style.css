@@ -34,7 +34,7 @@ body{
     color: hsl(220, 15%, 55%);
     font-size: 1rem;
     text-align: center;
-    padding: 0rem .7rem 0rem;  
+    padding: 0rem .7rem 1rem;  
 }
 .attribution{
     position: absolute;
@@ -58,7 +58,7 @@ body{
     .title{
         font-size: 23px;
         width: 100%;
-        padding: .4rem 0rem .7rem;
+        padding: .4rem 0rem 0rem;
     }
     .subtitle{
         padding: 0 .3rem;
