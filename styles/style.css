@@ -34,7 +34,7 @@ body{
     color: hsl(220, 15%, 55%);
     font-size: 1rem;
     text-align: center;
-    padding: .2rem .7rem .6rem;  
+    padding: 0rem .7rem 0rem;  
 }
 .attribution{
     position: absolute;
@@ -65,7 +65,7 @@ body{
         font-size: 16px;
     }
     .attribution{
-        top: 87%;        
+        top: 90%;        
     }
     .qr-code{
         width:100%;
